@@ -6,7 +6,7 @@ on:
 env:
   AWS_REGION: us-eest-1
   ECR_PUBLIC_REGISTRY: public.ecr.aws/n3f1r4q3
-  ECR_REPOSITORY: ecs-project
+  ECR_REPOSITORY: ecs-project-repo
   IMAGE_TAG: henry-agyemang_ecs-project
 jobs:
   deploy:
