@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
 env:
-  AWS_REGION: us-west-1
+  AWS_REGION: us-eest-1
   ECR_PUBLIC_REGISTRY: public.ecr.aws/n3f1r4q3
   ECR_REPOSITORY: ecs-project
   IMAGE_TAG: henry-agyemang_ecs-project
